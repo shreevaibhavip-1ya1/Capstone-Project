@@ -1,41 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <title>Certificates</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - My Portfolio</title>
-</head>
+        <style>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about_us.html">About_Us</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact_us.html">Contact_Us</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </nav>
-    </header>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                background: #f8f9fa;
+            }
 
-    <main>
-        <h1>My Gallery</h1>
-        <p>A visual showcase of some personal interests or general images. (For a real portfolio, replace these with
-            images of your work).</p>
+            .grid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                padding: 20px;
+            }
 
-        <div class="gallery">
-            <!-- Add your images here (e.g., <img src="image1.jpg" alt="Description">) -->
-            <p>[Image 1 Placeholder]</p>
-            <p>[Image 2 Placeholder]</p>
-            <p>[Image 3 Placeholder]</p>
+            .card {
+                width: 250px;
+                background: white;
+                padding: 10px;
+                text-align: center;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            }
+
+            .card img {
+                width: 100%;
+            }
+
+            footer {
+                background: #333;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="grid">
+
+            <div class="card">
+                <img src="Intermediate Website Developer.PNG">
+                <h4>Intermediate Website Developer</h4>
+            </div>
+
+            <div class="card">
+                <img src="Intermediate Mobile App Developer.PNG">
+                <h4>Intermediate Mobile App  Developer</h4>
+            </div>
+
+            <div class="card">
+                <img src="Intermediate AI Programmer.PNG">
+                <h4>Intermediate Mobile App Developer</h4>
+            </div>
+
+            <div class="card">
+                <img src="">
+                <h4></h4>
+            </div>
+
         </div>
-    </main>
 
-    <footer>
-        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
-    </footer>
-</body>
-
+        <footer>
+            @copy by Shree Vaibhavi
+        </footer>
+    </body>
 </html>
